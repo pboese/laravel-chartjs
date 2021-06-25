@@ -1,6 +1,7 @@
 {
     "name": "pboese/laravelchartjs",
-    "description": "Simple package to facilitate and automate the use of charts in Laravel 5.x using Chartjs v2 library. Forked from https://github.com/fxcosta/laravel-chartjs",
+    "version": "3.0.0",
+    "description": "Simple package to facilitate and automate the use of charts in Laravel 8.x using Chartjs v2 library. Forked from https://github.com/fxcosta/laravel-chartjs",
     "keywords": [
       "chartjs","laravel8","chart","reports","graphics", "fx3costa"
     ],

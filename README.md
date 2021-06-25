@@ -1,7 +1,7 @@
 
-# laravel-chartjs - Chart.js v2 wrapper for Laravel 5.x
+# laravel-chartjs - Chart.js v2 wrapper for Laravel 8.x
 
-Simple package to facilitate and automate the use of charts in Laravel 5.x
+Simple package to facilitate and automate the use of charts in Laravel 8.x
 using the [Chart.js](http://www.chartjs.org/) v2 library from Nick Downie.
 
 # Setup:
@@ -11,7 +11,7 @@ composer require pboese/laravelchartjs
 
 And add the Service Provider in your file config/app.php:
 ```php
-Fx3costa\LaravelChartJs\Providers\ChartjsServiceProvider::class
+Pboese\LaravelChartJs\Providers\ChartjsServiceProvider::class
 ```
 
 Finally, for now, you must install and add to your layouts / templates the Chartjs library that can be easily
