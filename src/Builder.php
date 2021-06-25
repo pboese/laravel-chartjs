@@ -4,7 +4,7 @@
  * This file is inspired by Builder from Laravel ChartJS - Brian Faust
  */
 
-namespace Fx3costa\LaravelChartJs;
+namespace Pboese\LaravelChartJs;
 
 use Illuminate\Support\Arr;
 

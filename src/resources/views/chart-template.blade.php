@@ -1,4 +1,5 @@
 <canvas id="{!! $element !!}" width="{!! $size['width'] !!}" height="{!! $size['height'] !!}">
+@push('footer-scripts')
 <script>
     document.addEventListener("DOMContentLoaded", function(event) {
         (function() {
@@ -19,4 +20,5 @@
         })();
     });
 </script>
+@endpush
 </canvas>

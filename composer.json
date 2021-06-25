@@ -1,14 +1,14 @@
 {
-    "name": "fx3costa/laravelchartjs",
-    "description": "Simple package to facilitate and automate the use of charts in Laravel 5.x using Chartjs v2 library",
+    "name": "pboese/laravelchartjs",
+    "description": "Simple package to facilitate and automate the use of charts in Laravel 5.x using Chartjs v2 library. Forked from https://github.com/fxcosta/laravel-chartjs",
     "keywords": [
-      "chartjs","laravel5","chart","reports","graphics", "fx3costa"
+      "chartjs","laravel8","chart","reports","graphics", "fx3costa"
     ],
     "license": "MIT",
     "authors": [
         {
-            "name": "Felix",
-            "email": "fx3costa@gmail.com"
+            "name": "Pelle Boese",
+            "email": "pelle@boe.se"
         }
     ],
     "require": {
@@ -18,14 +18,14 @@
 
     "autoload": {
       "psr-4": {
-        "Fx3costa\\LaravelChartJs\\" : "src/"
+        "Pboese\\LaravelChartJs\\" : "src/"
       }
     },
     
     "extra": {
         "laravel": {
             "providers": [
-                "Fx3costa\\LaravelChartJs\\Providers\\ChartjsServiceProvider"
+                "Pboese\\LaravelChartJs\\Providers\\ChartjsServiceProvider"
             ]
         }
     }
